@@ -1,6 +1,6 @@
 
-import Navbar from './components/Navbar'
-import React from 'react'
+import Navbar from './components/Navbar';
+import React from 'react';
 
 const App = () => {
 
@@ -9,7 +9,7 @@ const App = () => {
     <h1>hello world</h1>
     <Navbar></Navbar>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
