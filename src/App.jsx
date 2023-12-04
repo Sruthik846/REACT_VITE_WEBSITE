@@ -1,5 +1,6 @@
 
 import Home from './components/Home';
+import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import React from 'react';
 
@@ -12,6 +13,10 @@ const App = () => {
       <main>
         <div id='home'>
           <Home></Home>
+        </div>
+
+        <div id='menu'> 
+          <Menu/>
         </div>
       </main>
     </div>
