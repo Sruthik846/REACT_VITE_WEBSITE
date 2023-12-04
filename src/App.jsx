@@ -4,8 +4,9 @@ import Home from './components/Home';
 import Menu from './components/Menu';
 import Navbar from './components/Navbar';
 import React from 'react';
-import Product from './components/Product';
 import Review from './components/Review';
+import Footer from './components/Footer';
+import Product from './components/Product';
 
 const App = () => {
 
@@ -26,13 +27,14 @@ const App = () => {
         </div>
 
         <div id='product'> 
-          <Product/>
+         <Product></Product>
         </div>
 
         <div id='review'> 
           <Review></Review>
         </div>
       </main>
+      <Footer></Footer>
     </div>
   );
 };
